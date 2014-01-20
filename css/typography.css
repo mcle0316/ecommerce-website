@@ -141,5 +141,8 @@ ul li:before {
 	font-family:'FontAwesome';
 }
 
-
+blockquote p {
+	margin:1rem 1.5rem;	
+	
+}
 
