@@ -1,0 +1,145 @@
+/*
+  Colour Palette
+  - Purple: #93C
+  - orange: F60
+  -black/grey: #333
+ 
+ */
+ 
+ 
+
+html {
+  font: normal 100%/1.5 Verdana, Geneva, sans-serif; /* 16px/24px */
+}
+
+
+/*-----------------Links--------------------------------*/ 
+
+a, 
+a:link{
+	color:#333;
+	text-decoration:none; 
+	border-bottom:solid #333 3px;
+	transition:all 200ms linear; 
+}
+
+
+
+h1 a:hover,
+h1 a:focus,
+h1 a:active,
+h2 a:hover,
+h2 a:focus,
+h2 a:active,
+h3 a:hover,
+h3 a:focus,
+h3 a:active,
+h4 a:hover,
+h4 a:focus,
+h4 a:active,
+h5 a:hover,
+h5 a:focus,
+h5 a:active
+h6 a:hover,
+h6 a:focus,
+h6 a:active{
+	color:#333;
+	text-decoration:none; 
+	border-bottom:solid #333 7px;
+	
+}
+
+a:hover,
+a:focus,
+a:active {
+	color:#F60;
+	text-decoration:none; 
+	border-bottom:solid #F333 3px;
+		
+}
+
+
+
+/*------------- TYPE FORMATS--------------------------- */ 
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr {
+  margin: 0 0 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ribeye', cursive;
+	color:#93C;
+}
+
+.yotta {
+  font-size: 4.7684rem;
+  line-height: 1.2583;
+}
+
+.zetta {
+  font-size: 3.8147rem;
+  line-height: 1.1796;
+}
+
+h1, .exa {
+  font-size: 3.0518rem;
+  line-height: 1.4746;
+}
+
+h2, .peta {
+  font-size: 2.4414rem;
+  line-height: 1.2288;
+}
+
+h3, .tera {
+  font-size: 1.9531rem;
+  line-height: 1.5360;
+}
+
+h4, .giga {
+  font-size: 1.5625rem;
+  line-height: 1.9200;
+}
+
+h5, .mega {
+  font-size: 1.2500rem;
+  line-height: 1.2000;
+}
+
+h6, .kilo {
+  font-size: 1.0000rem;
+  line-height: 1.5000;
+}
+
+small, .milli {
+  font-size: 0.8000rem;
+  line-height: 1.8750;
+}
+
+.micro {
+  font-size: 0.6400rem;
+  line-height: 2.3438;
+}
+
+
+/* -----------------------bullets-------------------------------*/
+
+ul {
+	list-style-type: none;
+}
+
+ul li{
+	position:relative;	
+}
+
+ul li:before {
+	color:#F60;	
+	position: absolute;
+	left:-1.5em;
+	font-family:'FontAwesome';
+}
+
+
+
