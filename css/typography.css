@@ -10,6 +10,7 @@
 
 html {
   font: normal 100%/1.5 Verdana, Geneva, sans-serif; /* 16px/24px */
+  background-image:url(../images/simple-blue.jpg);
 }
 
 
@@ -68,9 +69,10 @@ blockquote, table, hr {
   margin: 0 0 1.5rem;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ribeye', cursive;
-	color:#93C;
+	color:#4C3010;
 }
 
 .yotta {
