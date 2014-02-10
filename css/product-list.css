@@ -28,3 +28,27 @@
 	float:none;
 	margin:0;
 }
+
+
+.list-group {
+	list-style-type:none;
+} 
+
+.list-group-item:before{
+	content:none;
+}
+
+.list-group-item {
+	display:block;	
+}
+
+.list-group-item-inline {
+	display:inline-block;	
+}
+
+
+.product-margin {
+	margin:1rem;
+}
+
+
