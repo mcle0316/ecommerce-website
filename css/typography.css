@@ -46,7 +46,7 @@ h6 a:focus,
 h6 a:active{
 	color:#4C3010;
 	text-decoration:none; 
-	border-bottom:solid #4C3010 7px;
+	/*border-bottom:solid #4C3010 7px;*/ 
 	
 }
 
@@ -55,7 +55,7 @@ a:focus,
 a:active {
 	color:#F60;
 	text-decoration:none; 
-	border-bottom:solid #F333 3px;
+	/*border-bottom:solid #F333 3px;*/
 		
 }
 

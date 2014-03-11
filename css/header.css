@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+.nav-bar li {
+display:inline;
+width:100%;
+font-family:'Ribeye', cursive;
+margin-left:4rem;
+
+}
+
+.nav-bar a, 
+.nav-bar a:link{
+	color:#4C3010;
+	text-decoration:none; 
+	transition:all 200ms linear; 
+}
+
+
+header {
+	background-color:#FAFAE0;
+	height:120px;
+	width:100%;
+}
+
+.name { top: 60px;
+		text-align: center;
+		font-family:'Ribeye', cursive;
+		display:block;
+		width:100%;
+	
+	}
